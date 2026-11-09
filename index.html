@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<script>(function () {
+  var isPhone = /iPhone|iPod|Android.+Mobile|Windows Phone|Mobile/i.test(navigator.userAgent);
+  if (isPhone && location.search.indexOf('desktop') === -1) { location.replace('mobile.html'); }
+})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Komšiluk Coffee & Pancakes | Kafić u Sarajevu</title>
+<meta name="description" content="Kafić Komšiluk na Čizmedžiluku u Sarajevu: palačinke, kafa, topli i hladni napici. Radno vrijeme 09:00–00:00. Komšiluk Coffee & Pancakes, Sarajevo – pancakes, coffee and good conversation.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://komsiluksarajevo.com/">
+  <link rel="alternate" media="only screen and (max-width: 767px)" href="https://komsiluksarajevo.com/mobile.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Komšiluk Coffee & Pancakes">
+<meta property="og:locale" content="bs_BA">
+<meta property="og:title" content="Komšiluk Coffee & Pancakes | Kafić u Sarajevu">
+<meta property="og:description" content="Kafić Komšiluk na Čizmedžiluku u Sarajevu: palačinke, kafa, topli i hladni napici. Radno vrijeme 09:00–00:00. Komšiluk Coffee & Pancakes, Sarajevo – pancakes, coffee and good conversation.">
+<meta property="og:url" content="https://komsiluksarajevo.com/">
+<meta property="og:image" content="https://komsiluksarajevo.com/assets/galerija-3.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Komšiluk Coffee & Pancakes | Kafić u Sarajevu">
+<meta name="twitter:description" content="Kafić Komšiluk na Čizmedžiluku u Sarajevu: palačinke, kafa, topli i hladni napici. Radno vrijeme 09:00–00:00. Komšiluk Coffee & Pancakes, Sarajevo – pancakes, coffee and good conversation.">
+<meta name="twitter:image" content="https://komsiluksarajevo.com/assets/galerija-3.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Komšiluk Coffee & Pancakes",
+  "alternateName": "Komšiluk",
+  "url": "https://komsiluksarajevo.com/",
+  "image": "https://komsiluksarajevo.com/assets/galerija-3.jpg",
+  "logo": "https://komsiluksarajevo.com/assets/logo.png",
+  "description": "Kafić Komšiluk na Čizmedžiluku u Sarajevu: palačinke, kafa, topli i hladni napici. Radno vrijeme 09:00–00:00. Komšiluk Coffee & Pancakes, Sarajevo – pancakes, coffee and good conversation.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Čizmedžiluk 26",
+    "postalCode": "71000",
+    "addressLocality": "Sarajevo",
+    "addressCountry": "BA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.8593164,
+    "longitude": 18.4296121
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "23:59"
+    }
+  ],
+  "priceRange": "KM 5–10",
+  "currenciesAccepted": "BAM",
+  "sameAs": [
+    "https://www.instagram.com/komsiluk1"
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #fbf4e8; --paper: #fffaf2; --espresso: #3a2319; --brown: #5b3b2a; --brown-2: #6e4a36;
+    --terra: #c8643b; --caramel: #e09a4f; --peach: #f7e1d0; --ink: #2e1d15; --muted: #8a6f5f;
+    --blue: #a9d8e8; --blue-soft: #d8eef6; --line: #eaddca;
+    --shadow: 0 10px 30px -12px rgba(58,35,25,.25); --radius: 20px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+  body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--cream); color: var(--ink); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  h1,h2,h3 { font-family: "Playfair Display", Georgia, serif; font-weight: 700; line-height: 1.15; }
+  h2 { font-size: clamp(1.9rem,3vw,2.6rem); margin-bottom: 1.6rem; color: var(--espresso); }
+  h2::after { content: ""; display: block; width: 56px; height: 4px; margin-top: .6rem; border-radius: 4px; background: linear-gradient(90deg, var(--terra), var(--caramel)); }
+  section { padding: 5rem 1.5rem; max-width: 1140px; margin: 0 auto; }
+  a { color: var(--terra); }
+
+  nav { position: sticky; top: 0; z-index: 10; background: rgba(251,244,232,.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
+  nav .inner { max-width: 1140px; margin: 0 auto; padding: .9rem 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
+  nav .brand { font-family: "Playfair Display", Georgia, serif; font-weight: 700; font-size: 1.35rem; color: var(--espresso); text-decoration: none; }
+  nav .brand::before { content: "☕ "; }
+  nav ul { list-style: none; display: flex; gap: .3rem; flex-wrap: wrap; }
+  nav ul a { display: inline-block; padding: .4rem .9rem; border-radius: 999px; text-decoration: none; color: var(--brown); font-size: .92rem; font-weight: 500; transition: background .2s, color .2s; }
+  nav ul a:hover { background: var(--peach); color: var(--terra); }
+
+  .hero { max-width: none; padding: 0; background: var(--espresso); position: relative; }
+  .hero video { transition: opacity 1.4s ease; }
+  .hero video.fade { opacity: 0; }
+  .hero-end { position: absolute; inset: 0; background: #000; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 1.4s ease; pointer-events: none; }
+  .hero-end.show { opacity: 1; }
+  .hero-end img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .hero video { width: 100%; height: min(74vh, 540px); object-fit: cover; display: block; }
+
+  .brand-block { text-align: center; max-width: none; color: var(--peach); border-bottom: 1px solid var(--line);
+    background: linear-gradient(rgba(58,35,25,.72), rgba(58,35,25,.86)), url("assets/kafic-pozadina.jpg") center / cover no-repeat; }
+  .brand-block > * { max-width: 620px; margin-left: auto; margin-right: auto; }
+  .brand-block img.logo { width: 220px; max-width: 60%; height: auto; margin-bottom: 1rem; }
+  .wordmark { font-family: "Playfair Display", Georgia, serif; font-size: 3.2rem; font-weight: 700; color: var(--cream); margin-bottom: 1rem; }
+  .brand-block p { font-size: 1.1rem; margin: 0 auto 1.2rem; opacity: .95; }
+  .lang { display: inline-flex; gap: .4rem; background: rgba(251,244,232,.12); padding: .3rem; border-radius: 999px; margin-bottom: 1.6rem; }
+  .lang button { font: inherit; font-size: .9rem; font-weight: 600; border: 0; border-radius: 999px; padding: .45rem 1.1rem; cursor: pointer; background: transparent; color: var(--cream); transition: background .2s, color .2s; }
+  .lang button.on { background: var(--blue); color: var(--espresso); }
+  .ig-btn { display: inline-flex; align-items: center; gap: .5rem; padding: .85rem 1.7rem; border-radius: 999px; background: linear-gradient(45deg,#f09433,#dc2743,#bc1888); color: #fff; text-decoration: none; font-weight: 600; box-shadow: 0 8px 20px -8px rgba(220,39,67,.6); transition: transform .2s; }
+  .ig-btn:hover { transform: translateY(-2px); }
+
+  .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 1.2rem; }
+  .gallery img { width: 100%; height: 300px; object-fit: cover; border-radius: var(--radius); background: var(--peach); box-shadow: var(--shadow); transition: transform .4s; }
+  .gallery img:hover { transform: scale(1.02); }
+
+  .card { background: var(--brown); color: var(--cream); border-radius: 16px; padding: 1rem 1.2rem; box-shadow: var(--shadow); }
+  .card h3 { font-size: 1.1rem; color: var(--blue); margin-bottom: .5rem; padding-bottom: .4rem; border-bottom: 1px dashed rgba(169,216,232,.4); }
+  .menu-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.6rem; }
+  .menu-head h2 { font-size: clamp(2.6rem, 4.6vw, 3.6rem); margin-bottom: 0; }
+  .menu-head h2::after { margin-top: .4rem; }
+  .menu-quote { text-align: right; max-width: 440px; font-family: "Playfair Display", Georgia, serif; font-style: italic; font-size: 1.2rem; line-height: 1.4; color: var(--terra); }
+  @media (max-width: 600px) { .menu-quote { text-align: left; } }
+  .menu-wrap { display: flex; flex-direction: column; gap: 1.5rem; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; align-items: start; }
+  .col { display: flex; flex-direction: column; gap: 1.5rem; }
+  @media (max-width: 800px) { .two-col { grid-template-columns: 1fr; } }
+  .items-2 { columns: 2; column-gap: 2rem; }
+  .items-2 .row { break-inside: avoid; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .3rem 0; border-bottom: 1px solid rgba(251,244,232,.08); }
+  .row small { display: block; color: #d9c6b6; font-size: .82rem; }
+  .price { white-space: nowrap; font-weight: 700; color: var(--espresso); background: var(--blue-soft); padding: .15rem .65rem; border-radius: 999px; font-size: .9rem; }
+  .pal-row { display: grid; grid-template-columns: 1fr auto 120px; align-items: center; gap: 1.2rem; padding: .6rem 0; border-bottom: 1px solid rgba(251,244,232,.1); }
+  .pal-row:last-child { border-bottom: 0; }
+  .pal-row .name { font-size: 1.2rem; font-weight: 600; font-family: "Playfair Display", Georgia, serif; }
+  .pal-row .name small { display: block; color: #d9c6b6; font-size: .9rem; font-family: Inter, system-ui, sans-serif; font-weight: 400; margin-top: .15rem; }
+  .pal-row .price { justify-self: center; font-size: 1.05rem; padding: .35rem 1rem; }
+  .pal-row img { width: 112px; height: 112px; object-fit: cover; border-radius: 16px; box-shadow: 0 6px 16px -6px rgba(0,0,0,.4); }
+  @media (max-width: 560px) { .pal-row { grid-template-columns: 1fr auto; } .pal-row img { display: none; } }
+  .menu-note { text-align: center; color: var(--muted); font-size: .9rem; margin-top: 1.5rem; }
+
+  .rev-wrap { display: grid; grid-template-columns: .85fr 1.15fr; gap: 2rem; align-items: stretch; }
+  .rev-img { width: 100%; height: 100%; min-height: 420px; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
+  @media (max-width: 860px) { .rev-wrap, .loc-grid { grid-template-columns: 1fr; } .rev-img { min-height: 260px; } }
+  .avg { margin-bottom: 1rem; color: var(--brown); }
+  .avg strong { color: var(--terra); font-size: 1.15rem; }
+  .review-list { display: flex; flex-direction: column; gap: 1rem; max-height: 520px; overflow-y: auto; padding-right: .3rem; }
+  .review { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem 1.3rem; box-shadow: 0 4px 14px -8px rgba(58,35,25,.2); }
+  .review .top { display: flex; justify-content: space-between; gap: 1rem; }
+  .review .author { font-weight: 600; color: var(--espresso); }
+  .review .stars { color: var(--caramel); letter-spacing: 2px; }
+  .review .date { color: var(--muted); font-size: .8rem; margin-bottom: .4rem; }
+  .empty { color: var(--muted); font-style: italic; }
+  form.review-form { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.8rem; display: flex; flex-direction: column; gap: 1rem; box-shadow: var(--shadow); }
+  form.review-form h3 { font-size: 1.4rem; color: var(--espresso); }
+  label { font-size: .88rem; color: var(--brown); font-weight: 500; display: flex; flex-direction: column; gap: .35rem; }
+  input, textarea { font: inherit; color: var(--ink); padding: .7rem .9rem; border: 1px solid var(--line); border-radius: 12px; background: #fff; outline: none; }
+  input:focus, textarea:focus { border-color: var(--caramel); box-shadow: 0 0 0 4px rgba(224,154,79,.2); }
+  textarea { min-height: 110px; resize: vertical; }
+  .star-input { display: flex; flex-direction: row-reverse; justify-content: flex-end; gap: .2rem; }
+  .star-input input { display: none; }
+  .star-input label { font-size: 2rem; cursor: pointer; color: #e3d5c4; }
+  .star-input input:checked ~ label, .star-input label:hover, .star-input label:hover ~ label { color: var(--caramel); }
+  button.submit { padding: .85rem 1.4rem; border: none; border-radius: 999px; background: linear-gradient(135deg, var(--terra), var(--caramel)); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+  .form-msg { font-size: .92rem; min-height: 1.2em; color: var(--terra); font-weight: 500; }
+
+  .loc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: stretch; }
+  .loc-img { width: 100%; height: 100%; min-height: 360px; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow); }
+  .loc-info p { margin-bottom: .9rem; }
+  .loc-info strong { color: var(--blue); }
+  .loc-info iframe { width: 100%; height: 220px; border: 0; border-radius: 14px; margin-top: .6rem; }
+
+  .coffee-video { text-align: center; }
+  .coffee-video h2::after { margin-left: auto; margin-right: auto; }
+  .cv-wrap { position: relative; max-width: 720px; margin: 0 auto; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); background: var(--espresso); }
+  .cv-wrap video { width: 100%; display: block; transition: opacity 1.4s ease; }
+  .cv-wrap video.fade { opacity: 0; }
+  .cv-logo { position: absolute; top: 4%; left: 50%; height: 56%; width: auto; transform: translate(-50%,0) scale(.9); opacity: 0; transition: opacity 1.4s ease, transform 1.4s ease; pointer-events: none; }
+  .cv-logo.show { opacity: 1; transform: translate(-50%,0) scale(1); }
+  .cv-end { position: absolute; left: 0; right: 0; bottom: 0; height: 46%; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; background: linear-gradient(to bottom, rgba(58,35,25,0), rgba(58,35,25,.95) 45%); color: #fff; padding: 1.5rem 1.5rem 1.4rem; opacity: 0; pointer-events: none; transition: opacity .6s ease; }
+  .cv-end.show { opacity: 1; }
+  .cv-text { font-family: "Playfair Display", Georgia, serif; font-size: clamp(1.4rem,3vw,2rem); font-weight: 700; }
+  .cv-sub { margin-top: .4rem; opacity: .9; }
+  .stickers { margin-top: 1rem; display: flex; gap: .8rem; font-size: 1.8rem; }
+  .stickers span { display: inline-block; animation: bob 2s ease-in-out infinite; }
+  .stickers span:nth-child(2) { animation-delay: .2s; } .stickers span:nth-child(3) { animation-delay: .4s; } .stickers span:nth-child(4) { animation-delay: .6s; } .stickers span:nth-child(5) { animation-delay: .8s; }
+  @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+
+  footer { text-align: center; padding: 2.5rem 1rem; color: var(--cream); background: var(--espresso); font-size: .92rem; }
+  footer a { color: var(--blue); }
+  footer .quote { font-family: "Playfair Display", Georgia, serif; font-style: italic; margin-top: .6rem; opacity: .85; font-size: 1.05rem; }
+
+  .hero-end.brand-block { border: 0; position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: .5rem; padding: 1.2rem 1.5rem; pointer-events: none; }
+  .hero-end.brand-block.show { pointer-events: auto; }
+  .hero-end.brand-block img.logo { width: auto; height: min(24vh, 180px); max-width: none; margin: 0; }
+  .hero-end.brand-block p { font-size: 1rem; margin: 0; }
+  .hero-end.brand-block .lang { margin: .2rem 0; }
+  .hero-end.brand-block .ig-btn { padding: .6rem 1.3rem; font-size: .92rem; }
+  .hero-end { background: linear-gradient(rgba(58,35,25,.72), rgba(58,35,25,.88)), url("assets/kafic-pozadina.jpg") center / cover no-repeat; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="inner">
+    <a class="brand" href="#top">Komšiluk</a>
+    <ul>
+      <li><a href="#top" data-i18n="nav_home">Početna</a></li>
+      <li><a href="#galerija" data-i18n="nav_gallery">Galerija</a></li>
+      <li><a href="#meni" data-i18n="nav_menu">Meni</a></li>
+      <li><a href="#recenzije" data-i18n="nav_rev">Recenzije</a></li>
+      <li><a href="#lokacija" data-i18n="nav_loc">Lokacija</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero" id="top" style="max-width:none">
+  <video id="heroVideo" src="assets/video.mp4" autoplay muted playsinline controls></video>
+  <div class="hero-end brand-block" id="heroEnd">
+    <img class="logo" src="assets/logo.png" alt="Komšiluk logo">
+    <p data-i18n="welcome">Dobrodošli u Komšiluk, mjesto gdje se kafa pije polako, a razgovor traje duže.</p>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="bs" class="on">Bosanski</button>
+      <button data-lang="en">English</button>
+    </div>
+    <a class="ig-btn" href="https://www.instagram.com/komsiluk1" target="_blank" rel="noopener">📷 Instagram</a>
+  </div>
+</section>
+
+<section id="galerija">
+  <h2 data-i18n="gal_title">Naš prostor</h2>
+  <div class="gallery">
+    <img src="assets/slika1.webp" width="680" height="453" alt="Palačinka sa šlagom i čajem">
+    <img src="assets/slika2.jpg" width="243" height="304" alt="Palačinka s čokoladom i latte">
+    <img src="assets/galerija-3.jpg" width="750" height="1000" alt="Palačinka sa čokoladom i orasima u kafiću Komšiluk">
+  </div>
+</section>
+
+<section id="meni">
+  <div class="menu-head"><h2 data-i18n="menu_title">Meni</h2><p class="menu-quote" data-i18n="menu_quote">Neke stvari ne bi trebale biti komplikovane. Izbor palačinki, međutim, je druga priča.</p></div>
+  <div class="menu-wrap" id="menuWrap"></div>
+  <p class="menu-note" data-i18n="menu_note">Cijene su u KM.</p>
+</section>
+
+<section id="recenzije">
+  <h2 data-i18n="rev_title">Recenzije</h2>
+  <div class="rev-wrap">
+    <img class="rev-img" src="assets/kafic-interijer.jpg" alt="Unutrašnjost kafića Komšiluk">
+    <div>
+      <p class="avg"><span data-i18n="google_rating">Google ocjena</span>: <strong>4.7</strong> / 5 (291) · <a href="https://www.google.com/search?q=komsiluk+sarajevo" target="_blank" rel="noopener" data-i18n="google_link">Pogledajte na Google-u</a></p>
+      <div class="avg" id="avg"></div>
+      <div class="review-list" id="reviewList"></div>
+      <form class="review-form" id="reviewForm" style="margin-top:2rem">
+      <h3 data-i18n="form_title">Ostavite recenziju</h3>
+      <label><span data-i18n="f_name">Vaše ime</span>
+        <input type="text" id="rName" maxlength="40" required>
+      </label>
+      <div>
+        <span style="font-size:.88rem;color:var(--brown);font-weight:500" data-i18n="f_rating">Ocjena</span>
+        <div class="star-input">
+          <input type="radio" id="s5" name="rating" value="5"><label for="s5">★</label>
+          <input type="radio" id="s4" name="rating" value="4"><label for="s4">★</label>
+          <input type="radio" id="s3" name="rating" value="3"><label for="s3">★</label>
+          <input type="radio" id="s2" name="rating" value="2"><label for="s2">★</label>
+          <input type="radio" id="s1" name="rating" value="1" checked><label for="s1">★</label>
+        </div>
+      </div>
+      <label><span data-i18n="f_comment">Vaš komentar</span>
+        <textarea id="rText" maxlength="400" required></textarea>
+      </label>
+      <button class="submit" type="submit" data-i18n="f_submit">Pošalji recenziju</button>
+      <div class="form-msg" id="formMsg"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="lokacija">
+  <h2 data-i18n="loc_title">Lokacija</h2>
+  <div class="loc-grid">
+    <img class="loc-img" src="assets/kafic-stepenice.jpg" alt="Stepenice i unutrašnjost kafića Komšiluk">
+    <div class="card loc-info">
+      <p><strong data-i18n="addr">Adresa</strong><br>Čizmedžiluk 26, 71000 Sarajevo</p>
+      <p><strong data-i18n="hours">Radno vrijeme</strong><br><span data-i18n="hours_val">Svakodnevno, 09:00 – 00:00</span></p>
+      <p><a href="https://www.google.com/maps/place/komsiluk+sarajevo/data=!4m2!3m1!1s0x4758c93372b4ba8d:0x5ac4620cdf1d6216" target="_blank" rel="noopener" style="color:var(--blue)" data-i18n="maps">Otvori u Google Mapama →</a></p>
+      <iframe src="https://maps.google.com/maps?q=komsiluk+sarajevo&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Komšiluk"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="coffee-video" id="kafa">
+  <h2 data-i18n="kafa_title">Planirali smo jednu kafu. Ali planovi se mijenjaju..</h2>
+  <div class="cv-wrap">
+    <img id="cvLogo" class="cv-logo" src="assets/logo.png" alt="Komšiluk logo">
+    <video id="kafaVideo" src="assets/video-kafa.mp4" autoplay muted playsinline></video>
+    <div class="cv-end" id="cvEnd">
+      <p class="cv-text" data-i18n="cv_text">Svaka šolja priča svoju priču</p>
+      <p class="cv-sub" data-i18n="cv_sub">Svratite, popijte kafu i ostanite malo duže</p>
+      <div class="stickers"><span>☕</span><span>🥐</span><span>💛</span><span>🍰</span><span>☕</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p><a href="mobile.html?mobile=1">Verzija za telefon / Mobile version</a></p>
+  <p>© komsiluk2026 · <a href="https://www.instagram.com/komsiluk1" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.google.com/maps/place/komsiluk+sarajevo/data=!4m2!3m1!1s0x4758c93372b4ba8d:0x5ac4620cdf1d6216" target="_blank" rel="noopener">Google Maps</a></p>
+  <p class="quote" data-i18n="footer_q">Mjesto za kafu lako je naći. Teže je znati kada otići.</p>
+</footer>
+
+<script src="assets/reviews.js"></script>
+<script>
+(function () {
+  const T = {
+    bs: { nav_home:'Početna', nav_gallery:'Galerija', nav_menu:'Meni', nav_rev:'Recenzije', nav_loc:'Lokacija',
+      welcome:'Dobrodošli u Komšiluk, mjesto gdje se kafa pije polako, a razgovor traje duže.', gal_title:'Naš prostor',
+      menu_title:'Meni', menu_note:'Cijene su u KM. Provjerite ažurni meni u kafiću.', rev_title:'Recenzije', google_rating:'Google ocjena',
+      google_link:'Pogledajte na Google-u', avg:'Prosječna ocjena', empty:'Još nema recenzija. Budite prvi!',
+      form_title:'Ostavite recenziju', f_name:'Vaše ime', f_rating:'Ocjena', f_comment:'Vaš komentar', f_submit:'Pošalji recenziju',
+      f_err:'Molimo unesite ime i komentar.', f_ok:'Hvala na recenziji! ❤️', loc_title:'Lokacija', addr:'Adresa', hours:'Radno vrijeme',
+      hours_val:'Svakodnevno, 09:00 – 00:00', maps:'Otvori u Google Mapama →', kafa_title:'Planirali smo jednu kafu. Ali planovi se mijenjaju..', menu_quote:'Neke stvari ne bi trebale biti komplikovane. Izbor palačinki, međutim, je druga priča.', footer_q:'Mjesto za kafu lako je naći. Teže je znati kada otići.',
+      cv_text:'Svaka šolja priča svoju priču', cv_sub:'Svratite, popijte kafu i ostanite malo duže',
+      cat_hot:'Topli napici', cat_juice:'Cijeđeni sokovi', cat_still:'Negazirana pića', cat_sparkling:'Gazirana pića', cat_energy:'Energetska pića', cat_pal:'Palačinci',
+      reviews_n:(n)=> n+' recenzija' },
+    en: { nav_home:'Home', nav_gallery:'Gallery', nav_menu:'Menu', nav_rev:'Reviews', nav_loc:'Location',
+      welcome:'Welcome to Komšiluk, where coffee is sipped slowly and conversations last longer.', gal_title:'Our space',
+      menu_title:'Menu', menu_note:'Prices in KM. Please check the current menu at the café.', rev_title:'Reviews', google_rating:'Google rating',
+      google_link:'See on Google', avg:'Average rating', empty:'No reviews yet. Be the first!',
+      form_title:'Leave a review', f_name:'Your name', f_rating:'Rating', f_comment:'Your comment', f_submit:'Send review',
+      f_err:'Please enter your name and a comment.', f_ok:'Thank you for your review! ❤️', loc_title:'Location', addr:'Address', hours:'Opening hours',
+      hours_val:'Every day, 09:00 – 00:00', maps:'Open in Google Maps →', kafa_title:'The plan was to have one coffee. But plans change..', menu_quote:'Some things shouldn’t be complicated. Choosing your pancakes, however, is a different story.', footer_q:'Finding a place for coffee is easy. Knowing when to leave is the hard part.',
+      cv_text:'Every cup tells its own story', cv_sub:'Stop by, have a coffee and stay a little longer',
+      cat_hot:'Hot drinks', cat_juice:'Freshly squeezed juices', cat_still:'Still drinks', cat_sparkling:'Sparkling drinks', cat_energy:'Energy drinks', cat_pal:'Pancakes',
+      reviews_n:(n)=> n+' reviews' }
+  };
+
+  const PAL = [
+    ['Palačinak Nutella','Nutella pancake','Nutella, čokoladne mrvice, šlag','Nutella, chocolate crumbs, whipped cream','8.00','assets/pal-nutella.jpg'],
+    ['Pancake Banana Roll','Banana roll pancake','Banana, čokolada, šlag','Banana, chocolate, whipped cream','9.00','assets/pal-banana.jpg'],
+    ['Palačinak Ferrero Rocher','Ferrero Rocher pancake','Ferrero Rocher, lješnjaci, čokoladne mrvice, šlag','Ferrero Rocher, hazelnuts, chocolate crumbs, whipped cream','9.00','assets/pal-ferrero.jpg'],
+    ['Palačinak Snickers','Snickers pancake','Karamel, kikiriki, čokolada, šlag','Caramel, peanuts, dark chocolate, whipped cream','9.00','assets/pal-snickers.jpg'],
+    ['Palačinak Kinder','Kinder pancake','Kinder čokolada, šlag','Kinder chocolate, whipped cream','8.50','assets/pal-kinder.jpg'],
+    ['Palačinak Oreo','Oreo pancake','Nutella, Oreo keksi, čokoladne mrvice, šlag','Nutella, Oreo cookies, chocolate crumbs, whipped cream','8.50','assets/pal-oreo.jpg'],
+    ['Palačinak Jaffa','Jaffa pancake','Narandža, čokolada, šlag','Orange, dark chocolate, whipped cream','9.00','assets/pal-jaffa.jpg'],
+    ['Palačinak Šumsko voće','Forest fruit pancake','Šumsko voće, šlag','Forest fruits, whipped cream','8.50','assets/pal-sumsko.jpg'],
+    ['Palačinak Raffaello','Raffaello pancake','Kokos, bijela čokolada, šlag','Coconut, white chocolate, whipped cream','8.50','assets/pal-raffaello.jpg'],
+    ['Palačinak Pistachio','Pistachio pancake','Pistacio krem, bijela čokolada, šlag','Pistachio cream, white chocolate, whipped cream','10.00','assets/pal-pistachio.jpg']
+  ];
+  const HOT = [['Bosanska kafa','Bosnian coffee','5.00'],['Espresso kafa','Espresso','3.00'],['Mali macchiato','Small macchiato','3.50'],
+    ['Veliki macchiato','Large macchiato','4.00'],['Americano','Americano','3.50'],['Cappuccino','Cappuccino','4.50'],['Kafa sa šlagom','Coffee with whipped cream','4.50'],
+    ['Latte macchiato','Latte macchiato','5.50'],['Nescafe','Nescafe','4.50'],['Ledena kafa','Iced coffee','5.00'],['Topla čokolada','Hot chocolate','5.00'],
+    ['Salep','Salep','5.00'],['Čaj (filter)','Tea (filter)','3.50'],['Turski čaj','Turkish tea','3.00'],['Turski čaj veliki','Turkish tea large','4.00']];
+  const JUICE = [['Limunada','Lemonade','4.50'],['Cijeđena narandža','Fresh orange juice','6.00'],['Cijeđeni mix','Fresh mixed juice','7.00']];
+  const STILL = [['Prirodni sokovi 0,33l','Natural juice 0.33l','4.00'],['Prirodni sokovi 0,5l','Natural juice 0.5l','7.00'],['Ledeni čaj 0,25l','Iced tea 0.25l','4.00'],
+    ['Cappy 0,25l','Cappy 0.25l','4.50'],['Olimpija prirodna voda 0,33l','Olimpija still water 0.33l','1.00']];
+  const SPARK = [['Coca-Cola 0,25l','Coca-Cola 0.25l','4.00'],['Coca-Cola Zero 0,25l','Coca-Cola Zero 0.25l','4.00'],['Fanta 0,25l','Fanta 0.25l','4.00'],
+    ['Sprite 0,25l','Sprite 0.25l','4.00'],['Schweppes 0,25l','Schweppes 0.25l','4.00'],['Orangina 0,25l','Orangina 0.25l','4.50'],['Cockta 0,25l','Cockta 0.25l','4.00'],
+    ['Sensation 0,25l','Sensation 0.25l','3.50'],['Sarajevski kiseljak 0,25l','Sarajevo mineral water 0.25l','3.00']];
+  const ENERGY = [['Red Bull 0,25l','Red Bull 0.25l','6.00'],['Hell 0,25l','Hell 0.25l','3.50']];
+
+  let lang = 'bs';
+  const price = p => lang === 'en' ? p + ' KM' : p.replace('.', ',') + ' KM';
+  const row = (n, en, p) => `<div class="row"><span>${lang === 'en' ? en : n}</span><span class="price">${price(p)}</span></div>`;
+  const list = (arr) => arr.map(i => row(i[0], i[1], i[2])).join('');
+  const card = (title, body, cls='') => `<div class="card ${cls}"><h3>${T[lang][title]}</h3>${body}</div>`;
+
+  function renderMenu() {
+    const pal = PAL.map(p => `<div class="pal-row"><div class="name">${lang === 'en' ? p[1] : p[0]}<small>${lang === 'en' ? p[3] : p[2]}</small></div><span class="price">${price(p[4])}</span><img src="${p[5]}" alt="${lang === 'en' ? p[1] : p[0]}" width="120" height="120"></div>`).join('');
+    document.getElementById('menuWrap').innerHTML =
+      card('cat_pal', pal, 'pal-card') +
+      card('cat_hot', `<div class="items-2">${list(HOT)}</div>`) +
+      `<div class="two-col"><div class="col">${card('cat_juice', list(JUICE))}${card('cat_still', list(STILL))}</div>` +
+      `<div class="col">${card('cat_sparkling', list(SPARK))}${card('cat_energy', list(ENERGY))}</div></div>`;
+  }
+
+  function applyLang(l) {
+    lang = l;
+    document.documentElement.lang = l === 'en' ? 'en' : 'bs';
+    document.querySelectorAll('[data-i18n]').forEach(el => { const v = T[l][el.dataset.i18n]; if (typeof v === 'string') el.textContent = v; });
+    document.querySelectorAll('.lang button').forEach(b => b.classList.toggle('on', b.dataset.lang === l));
+    renderMenu(); if (window.KomReviews) KomReviews.setLang(l);
+  }
+  document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => applyLang(b.dataset.lang)));
+
+  const kafaVideo = document.getElementById('kafaVideo');
+  kafaVideo.addEventListener('ended', () => {
+    kafaVideo.classList.add('fade');
+    setTimeout(() => document.getElementById('cvLogo').classList.add('show'), 1200);
+    setTimeout(() => document.getElementById('cvEnd').classList.add('show'), 2600);
+  });
+
+  const heroVideo = document.getElementById('heroVideo');
+  heroVideo.playbackRate = 1;
+  heroVideo.addEventListener('ended', () => {
+    heroVideo.classList.add('fade');
+    setTimeout(() => document.getElementById('heroEnd').classList.add('show'), 1200);
+  });
+
+  applyLang('bs');
+})();
+</script>
+</body>
+</html>
